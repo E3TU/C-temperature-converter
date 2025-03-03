@@ -21,9 +21,10 @@ int main(void)
                 fahrenheit = (celcius * 9/5) + 32;
                 kelvin = celcius + 273.15;
                 printf("\n");
-                printf("Temperature in Celcius: %.2f\n", celcius);
-                printf("Temperature in Fahrenheit: %.2f\n", fahrenheit);
-                printf("Temperature in Kelvin: %.2f\n", kelvin);
+                // printf("Temperature in Celcius: %.2f\n", celcius);
+                printf("%.2f Celsius\n", celcius);
+                printf("Converted to Fahrenheit: %.2f\n", fahrenheit);
+                printf("Converted to Kelvin: %.2f\n", kelvin);
                 break;
             case 2:
                 printf("Enter the temperature in fahrenheit: ");
