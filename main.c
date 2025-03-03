@@ -49,11 +49,11 @@ int main(void)
                 printf("Converted to Fahrenheit: %.2f\n", fahrenheit);
                 break;
             case 4:
-                break;
+                return 0;
             default:
                 printf("Invalid option! Try again!\n");
                 break;
         }
-        return 0;
     }
+    return 0;
 }
